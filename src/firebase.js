@@ -4,15 +4,14 @@ import { getFirestore } from "firebase/firestore";
 
 // Replace with your actual Firebase config values
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY_HERE",
-  authDomain: "YOUR_AUTH_DOMAIN_HERE",
-  projectId: "YOUR_PROJECT_ID_HERE",
-  storageBucket: "YOUR_STORAGE_BUCKET_HERE",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID_HERE",
-  appId: "YOUR_APP_ID_HERE",
-  measurementId: "YOUR_MEASUREMENT_ID_HERE"
-};
-
+    apiKey: "AIzaSyATy2A5RRByE1lxitenJHXcv9HeB_Yw9D0",
+    authDomain: "recipe-finder-app-b17e6.firebaseapp.com",
+    projectId: "recipe-finder-app-b17e6",
+    storageBucket: "recipe-finder-app-b17e6.firebasestorage.app",
+    messagingSenderId: "577808296833",
+    appId: "1:577808296833:web:5a88f8b56cf61102335680",
+    measurementId: "G-JC5VCH1F8E"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

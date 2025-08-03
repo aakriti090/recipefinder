@@ -29,6 +29,8 @@ dist-ssr/
 .firebase/
 firebase-debug.log
 firebase-error.log
+src/firebase.js
+src/api/recipeAPI.js
 
 # Editor directories and files
 .vscode/
